@@ -3,8 +3,8 @@ def safe_divide(numerator,denominator):
     
 
     try:
-        n=int(numerator)
-        d=int(denominator)
+        n=float(numerator)
+        d=float(denominator)
         x=n/d
         print(x)
     except ZeroDivisionError:
